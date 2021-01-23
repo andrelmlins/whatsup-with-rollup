@@ -24,7 +24,6 @@
     "@rollup/plugin-html": "^0.2.0",
     "@rollup/plugin-image": "^2.0.6",
     "@rollup/plugin-node-resolve": "^11.1.0",
-    "@rollup/plugin-typescript": "^8.1.0",
     "@whatsup/babel-plugin-transform-jsx": "^0.2.2",
     "babel-loader": "^8.1.0",
     "core-js": "^3.6.5",

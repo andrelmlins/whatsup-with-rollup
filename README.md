@@ -1,6 +1,6 @@
 [![Whatsup logo](https://hsto.org/webt/ap/cu/s9/apcus9m69i3qemivourwekvzfbu.png)](https://github.com/whatsup/whatsup)
 
-# project
+# Whatsup with rollup
 
 Project create with [whatsup cli](https://github.com/whatsup/cli)
 
@@ -8,14 +8,14 @@ Project create with [whatsup cli](https://github.com/whatsup/cli)
 
 ```sh
 # move to create folder
-$ cd [PROJECT_NAME]
+$ cd whatsup-with-rollup
 
 # install dependencies
-$ npm install
+$ yarn install
 
 # serve with hot reload
-$ npm run start
+$ yarn start
 
 # build project for production
-$ npm run build
+$ yarn build
 ```
