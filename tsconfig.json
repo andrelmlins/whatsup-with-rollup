@@ -4,7 +4,7 @@
     "target": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,
-    "declaration": true,
+    "declaration": false,
     "sourceMap": true,
     "strict": true,
     "noUnusedLocals": true,

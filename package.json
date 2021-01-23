@@ -3,13 +3,13 @@
   "description": "Project created with Whatsup CLI",
   "version": "0.0.1",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server",
-    "build": "cross-env NODE_ENV=production webpack -p"
+    "start": "rollup -c -w",
+    "build": "rollup -c"
   },
   "dependencies": {
+    "@whatsup/jsx": "^0.1.4",
     "@whatsup/route": "^0.3.1",
-    "whatsup": "^1.1.0",
-    "@whatsup/jsx": "^0.1.4"
+    "whatsup": "^1.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
@@ -19,20 +19,23 @@
     "@babel/plugin-transform-typescript": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-html": "^0.2.0",
+    "@rollup/plugin-image": "^2.0.6",
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "@rollup/plugin-typescript": "^8.1.0",
     "@whatsup/babel-plugin-transform-jsx": "^0.2.2",
     "babel-loader": "^8.1.0",
     "core-js": "^3.6.5",
-    "cross-env": "^7.0.2",
-    "css-loader": "^5.0.1",
-    "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^5.0.0",
     "prettier": "^2.0.5",
-    "sass": "^1.29.0",
-    "sass-loader": "^10.1.0",
-    "style-loader": "^2.0.0",
-    "typescript": "^3.9.6",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "rollup": "^2.38.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-postcss": "https://github.com/isaacl/rollup-plugin-postcss",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "sass": "^1.32.5",
+    "typescript": "^3.9.6"
   }
 }
